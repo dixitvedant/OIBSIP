@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+/* navbar section */
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 15px 0;
+}
+
+.logo {
+  align-items: left;
+  width: 190px;
+  height: 60px;
+  margin-right: 550px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar .navul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.navbar .navul li a {
+  justify-content: space-around;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 10px 30px;
+  color: antiquewhite;
+}
+
+.navbar:hover {
+  box-shadow: 0 10px rgb(124, 157, 118);
+}
+
+select {
+  font-size: 19px;
+  background-color: black;
+  color: antiquewhite;
+  text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+}
+
+select:hover {
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+
+.navbar .navul li a:hover {
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  background-color: rgb(27, 25, 25);
+  background-image: linear-gradient(45deg, #d3c017, #09f7b8);
+  min-height: 110vh;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  color: whitesmoke;
+}
+
+
+/* Hero-content */
+.content {
+  margin-left: 2%;
+  margin-top: 18%;
+  width: 100%;
+  padding: 0 0 0 70px;
+}
+
+.content h1 {
+  font-size: 50px;
+
+}
+
+.content h3 {
+  padding-top: 10px;
+  animation-delay: 0.5s;
+}
+
+.content .btn2 {
+  margin-top: 25px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  color: antiquewhite;
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+
+.content .btn2:hover {
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  font-weight: 900;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.941);
+  border-radius: 20px;
+}
+
+/* Image */
+.feature-img {
+  margin-top: 10%;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  border-radius: 10px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.518);
+}
+
+.feature-img.anim {
+  animation-delay: 1.5s;
+}
+
+/* features section */
+
+.features {
+  height: 130px;
+  width: 100%;
+}
+
+.feature-panel {
+  margin-top: 12%;
+  margin-left: 4.5%;
+  width: 42%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.feature-ul {
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: block;
+}
+
+.feature-ul:hover {
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  font-weight: 600;
+  text-decoration: underline;
+  border-radius: 10px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.941);
+}
+
+
+/* Next page section */
+
+.next-hero {
+  /* background-color: rgb(27, 25, 25); */
+  background-image: linear-gradient(45deg, #0e0d08, #055751);
+  min-height: 100vh;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  color: antiquewhite;
+}
+
+/* next-content */
+.next-content {
+  margin-top: 12%;
+  width: 100%;
+  padding: 0 0 0 70px;
+}
+
+.next-content h2 {
+  font-size: 42px;
+  padding-bottom: 10px;
+}
+
+.next-content h3 {
+  padding-bottom: 5px;
+  animation-delay: 0.5s;
+  color: #04801f;
+}
+
+.next-content p {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+hr {
+  width: 53%;
+  height: 2px;
+}
+
+h4 {
+  margin-top: 20px;
+  padding-right: 190px;
+  display: inline;
+}
+
+.next-content .btn2 {
+  margin-top: 25px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  color: antiquewhite;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  transition: 0.5s;
+}
+
+.next-content .btn2:hover {
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  font-weight: 900;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.941);
+  border-radius: 20px;
+}
+
+/* Photo */
+.feature-photo {
+  margin-top: 14%;
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  right: 8%;
+  border-radius: 1000px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.518);
+}
+.feature-photo.anim {
+  animation-delay: 1.5s;
+}
+.feature-photo:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* skills section */
+.skills {
+  height: 600px;
+  width: 100%;
+  background-color: black
+}
+
+.skills h2 {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 40px;
+  color: #eae4e4;
+}
+
+.heading:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  text-decoration: underline 1px solid #eae4e4;
+}
+
+.skill {
+  width: 100%;
+  color: aliceblue;
+}
+
+
+.skill-panel1 {
+  padding-top: 90px;
+  margin-bottom: 7%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: rgb(244, 244, 244);
+}
+
+.skill-panel2 {
+  padding-top: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.skill {
+  margin-top: 10px;
+  display: block;
+}
+
+.skill-ul {
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #08b82e, #9fa915);
+  font-weight: 500;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(186, 150, 18);
+}
+
+.skill-ul:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  background-image: linear-gradient(45deg, #08b82e, #0bf588);
+  border-radius: 10px;
+}
+
+.project {
+  text-decoration: none;
+  color: #f7efef;
+}
+
+.project:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* ANIMATION */
+.anim {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.anim {
+  animation-delay: 0.5s;
+}
